@@ -1,4 +1,3 @@
-/home/nicole/anaconda3/envs/mushroom_decions_tree/bin/python /home/nicole/PycharmProjects/mushroom_decision_tree/main.py
 root node: root
 	odor == a : edible
 	odor == c : poisonous
@@ -29,4 +28,3 @@ root node: root
 	odor == s : poisonous
 	odor == y : poisonous
 
-Process finished with exit code 0
