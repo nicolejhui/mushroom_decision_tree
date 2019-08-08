@@ -129,7 +129,7 @@ class Node:
             for example in self.examples:
                 if example[best_idx] == unique_val:
                     split = np.append(split, np.array([example]), axis=0)
-            child = Node(unique_val_dict[unique_val_key_number], split, depth=self.depth+1)
+            child = Node(unique_val_dict[unique_val_key_number], split, depth=self.depth)
             child.entropy = child.con_entropy(best_idx)
             child.info_gain_dict = info_gain_dict
             child.split_feature = best_attribute_name

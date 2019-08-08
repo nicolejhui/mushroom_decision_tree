@@ -1,3 +1,4 @@
+/home/nicole/anaconda3/envs/mushroom_decions_tree/bin/python /home/nicole/PycharmProjects/mushroom_decision_tree/main.py
 root node: root
 	odor == a : edible
 	odor == c : poisonous
@@ -5,25 +6,27 @@ root node: root
 	odor == l : edible
 	odor == m : poisonous
 	odor == n
-			spore-print-color == b : edible
-			spore-print-color == h : edible
-			spore-print-color == k : edible
-			spore-print-color == n : edible
-			spore-print-color == o : edible
-			spore-print-color == r : poisonous
-			spore-print-color == w
-					habitat == d
-							gill-size == b : edible
-							gill-size == n : poisonous
-					habitat == g : edible
-					habitat == l
-							cap-color == c : edible
-							cap-color == n : edible
-							cap-color == w : poisonous
-							cap-color == y : poisonous
-					habitat == p : edible
-					habitat == w : edible
-			spore-print-color == y : edible
+		spore-print-color == b : edible
+		spore-print-color == h : edible
+		spore-print-color == k : edible
+		spore-print-color == n : edible
+		spore-print-color == o : edible
+		spore-print-color == r : poisonous
+		spore-print-color == w
+			habitat == d
+				gill-size == b : edible
+				gill-size == n : poisonous
+			habitat == g : edible
+			habitat == l
+				cap-color == c : edible
+				cap-color == n : edible
+				cap-color == w : poisonous
+				cap-color == y : poisonous
+			habitat == p : edible
+			habitat == w : edible
+		spore-print-color == y : edible
 	odor == p : poisonous
 	odor == s : poisonous
 	odor == y : poisonous
+
+Process finished with exit code 0
