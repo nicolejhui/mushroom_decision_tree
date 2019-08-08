@@ -1,12 +1,2 @@
-.idea/libraries/R_User_Library.xml
-.idea/misc.xml
-.idea/modules.xml
-.idea/mushroom-decision-tree.iml
-.idea/vcs.xml
-.idea/workspace.xml
-__pycache__
-.idea/other.xml
-__pycache__/
-venv/include/
-venv/lib/
+.idea
 venv/
